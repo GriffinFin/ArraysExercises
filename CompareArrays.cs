@@ -8,8 +8,11 @@ namespace CompareArrays
         {
             char[] arrA = Array.ConvertAll(Console.ReadLine().Split(' '), char.Parse);
             char[] arrB = Array.ConvertAll(Console.ReadLine().Split(' '), char.Parse);
+            
             int len = Math.Min(arrA.Length, arrB.Length);
+            
             bool areEqual = true;
+            
             for (int i = 0; i < len; i++)
             {
                 if (arrA[i]<arrB[i])
