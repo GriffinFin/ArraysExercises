@@ -11,7 +11,6 @@ namespace EqualSums
             {
                 sum += array[i];
             }
-
             return sum;
         }
 
@@ -22,9 +21,9 @@ namespace EqualSums
             {
                 sum += array[i];
             }
-
             return sum;
         }
+        
         public static void Main(string[] args)
         {
             int[] input = Array.ConvertAll(Console.ReadLine().Split(' '), Int32.Parse);
