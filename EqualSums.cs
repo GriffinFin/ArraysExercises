@@ -36,7 +36,6 @@ namespace EqualSums
                     noMatch = false;
                 }
             }
-
             if (noMatch)
             {
                 Console.WriteLine("no");
